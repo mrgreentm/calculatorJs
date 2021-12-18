@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JAVASCRIPT</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="painel">
+            <p id="results"></p>
+        </div>
+        <form id="form" class="buttons">
+            <input type="button" value="CLEAR" class="button" onclick="resete()" id="clear">
+            <input type="button" value="^" class="button" onclick="operations(id)" id="pot">
+            <input type="button" value="/" class="button" onclick="operations(id)" id="div">
+            <input type="button" value="+" class="button" onclick="operations(id)" id="add">
+            <input type="button" value="1" class="button" onclick="insertNumber(id)" id="one">
+            <input type="button" value="2" class="button" onclick="insertNumber(id)" id="two">
+            <input type="button" value="3" class="button" onclick="insertNumber(id)" id="three">
+            <input type="button" value="-" class="button" onclick="operations(id)" id="sub">
+            <input type="button" value="4" class="button" onclick="insertNumber(id)" id="four">
+            <input type="button" value="5" class="button" onclick="insertNumber(id)" id="five">
+            <input type="button" value="6" class="button" onclick="insertNumber(id)" id="six">
+            <input type="button" value="x" class="button" onclick="operations(id)" id="vs">
+            <input type="button" value="7" class="button" onclick="insertNumber(id)" id="seven">
+            <input type="button" value="8" class="button" onclick="insertNumber(id)" id="eigth">
+            <input type="button" value="9" class="button" onclick="insertNumber(id)" id="nine">
+            <input type="button" value="0" class="button" onclick="insertNumber(id)" id="zero">
+            <input type="button" value="=" class="button" onclick="result()" id="iquals">
+    </div>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
